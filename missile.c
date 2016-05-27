@@ -55,7 +55,8 @@ main() {
     h=0.01;
 
     for (j=0; j<1000; j++) {
-        if( sqrt((drone[missile].x-drone[airplane].x)*(drone[missile].x-drone[airplane].x) + (drone[missile].y-drone[airplane].y)*(drone[missile].y-drone[airplane].y))<5.0) break;
+        if( sqrt((drone[missile].x-drone[airplane].x)*(drone[missile].x-drone[airplane].x) 
+               + (drone[missile].y-drone[airplane].y)*(drone[missile].y-drone[airplane].y))<5.0) break;
 
         for (i=0; i<2; i++) {
             printf("%f %f ",drone[i].x,drone[i].y);
