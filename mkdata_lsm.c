@@ -7,11 +7,11 @@ main()
 {
   short i;
   double x,y;
-  for (i=0;i<10;i++)
+  for (i=0;i<50;i++)
   {
     x=i*1.0;
     y=2.0*x + 1.0 + urandom(2.0);
-    printf("%f %f\n",x,y);
+    printf("%f,%f,\n",x,y);
   }
 }
 
